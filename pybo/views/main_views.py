@@ -12,6 +12,6 @@ def fuck_you():
 
 @bp.route('/')
 def index():
-    return redirect(url_for('main.fuck_you')) #url_for() 설정된 함수명으로 url을 역으로 찾아줌, question_views의 _list()
+    return redirect(url_for('question._list')) #url_for() 설정된 함수명으로 url을 역으로 찾아줌, question_views의 _list()
 
 
